@@ -1,0 +1,173 @@
+button {
+  border-radius: 2px;
+  padding: 5px 25px;
+}
+
+.button-primary {
+  background-color: #2585eb;
+  color: white;
+  border: #0069d9;
+}
+.primary-hover:hover {
+  background-color: #0069d9;
+}
+.primary-border {
+  border: 1px solid #2585eb;
+  color: #2585eb;
+  background-color: white;
+}
+.primary-fade {
+  color: #2585eb;
+  background-color: #d4e7fa;
+}
+.primary-large {
+  padding: 10px 30px;
+  background-color: #2585eb;
+}
+.primary-large-fade {
+  color: #2585eb;
+  background-color: #d4e7fa;
+  padding: 10px 30px;
+}
+.primary-large-border {
+  border: 1px solid #2585eb;
+  color: #2585eb;
+  background-color: white;
+  padding: 10px 30px;
+}
+
+.button-danger {
+  background-color: red;
+  color: white;
+  border: red;
+}
+.danger-hover:hover {
+  background-color: rgb(207, 6, 6);
+}
+.danger-border {
+  border: 1px solid red;
+  color: red;
+  background-color: white;
+}
+.danger-fade {
+  color: red;
+  background-color: rgb(252, 195, 195);
+}
+.danger-large {
+  padding: 10px 30px;
+  background-color: red;
+}
+.danger-large-fade {
+  color: red;
+  background-color: rgb(252, 195, 195);
+  padding: 10px 30px;
+}
+.danger-large-border {
+  border: 1px solid red;
+  color: red;
+  background-color: white;
+  padding: 10px 30px;
+}
+
+.button-success {
+  background-color: #07c007;
+  color: white;
+  border: #07c007;
+}
+.success-hover:hover {
+  background-color: rgb(5, 133, 5);
+}
+.success-border {
+  border: 1px solid #07c007;
+  color: #07c007;
+  background-color: white;
+}
+.success-fade {
+  color: #07c007;
+  background-color: rgb(215, 245, 215);
+}
+.success-large {
+  padding: 10px 30px;
+  background-color: #07c007;
+}
+.success-large-fade {
+  color: #07c007;
+  background-color: rgb(215, 245, 215);
+  padding: 10px 30px;
+}
+.success-large-border {
+  border: 1px solid #07c007;
+  color: #07c007;
+  background-color: white;
+  padding: 10px 30px;
+}
+
+.button-warning {
+  background-color: gold;
+  color: black;
+  border: gold;
+}
+.warning-hover:hover {
+  background-color: goldenrod;
+}
+.warning-border {
+  border: 1px solid gold;
+  color: gold;
+  background-color: white;
+}
+.warning-fade {
+  color: gold;
+  background-color: #f8f3d9;
+}
+.warning-large {
+  padding: 10px 30px;
+  background-color: gold;
+}
+.warning-large-fade {
+  color: gold;
+  background-color: #f8f3d9;
+  padding: 10px 30px;
+}
+.warning-large-border {
+  border: 1px solid gold;
+  color: gold;
+  background-color: white;
+  padding: 10px 30px;
+}
+
+.button-default {
+  background-color: black;
+  color: white;
+  border: black;
+}
+.default-hover:hover {
+  background-color: #313131;
+  border: black;
+}
+.default-border {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+.default-fade {
+  color: black;
+  background-color: #f1ececd3;
+}
+.default-large {
+  padding: 10px 30px;
+  background-color: black;
+}
+.default-large-fade {
+  color: black;
+  background-color: #f1ececd3;
+  padding: 10px 30px;
+}
+.default-large-border {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 10px 30px;
+}
+
+
+/*# sourceMappingURL=main.3f07080b.chunk.css.map*/
