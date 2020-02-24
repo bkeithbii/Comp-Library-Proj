@@ -34,6 +34,9 @@ select {
   background-position-x: 90%;
   background-color: white;
 }
+form.input-select {
+  margin-right: 95%;
+}
 .input-select-med {
   -webkit-appearance: none;
   padding: 9px 150px 9px 5px;
@@ -64,6 +67,9 @@ select {
   background-position: right;
   background-position-x: 90%;
 }
+form.select-fade {
+  margin-right: 90%;
+}
 .select-fade-med {
   -webkit-appearance: none;
   padding: 9px 150px 9px 5px;
@@ -89,8 +95,8 @@ select {
   justify-content: space-evenly;
   align-items: center;
   background-color: #eeeeeef1;
-  width: 15%;
-  height: 35px;
+  width: 10%;
+  height: 33px;
 }
 .number {
   padding: 0 5px;

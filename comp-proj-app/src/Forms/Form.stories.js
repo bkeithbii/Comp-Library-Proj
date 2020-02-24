@@ -3,6 +3,7 @@ import { storiesOf } from "@storybook/react";
 import Textinput from "./Textinput.js";
 import Selectinput from "./Selectinput.js";
 import Counter from "./Counter.js";
+import Textbutton from "./Textbutton.js";
 
 storiesOf("Form", module)
   //Email Text Inputs
