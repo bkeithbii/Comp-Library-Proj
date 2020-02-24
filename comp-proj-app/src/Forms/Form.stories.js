@@ -4,6 +4,7 @@ import Textinput from "./Textinput.js";
 import Selectinput from "./Selectinput.js";
 import Counter from "./Counter.js";
 import Voucher from "./Voucher.js";
+import Checkbox from "./Checkbox.js";
 
 storiesOf("Form", module)
   //Email Text Inputs
@@ -28,4 +29,7 @@ storiesOf("Form", module)
 
   //Voucher input/button
   .add("Voucher", () => <Voucher label="Redeem" type="small" />)
-  .add("Voucher Large", () => <Voucher label="Redeem" type="large" />);
+  .add("Voucher Large", () => <Voucher label="Redeem" type="large" />)
+
+  //Checkboxes
+  .add("Checkbox Blue", () => <Checkbox type="blue" />);
