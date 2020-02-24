@@ -3,7 +3,7 @@ input {
   margin: 3px 0;
 }
 form {
-  margin-right: 77%;
+  margin-right: 95%;
 }
 select {
   background-color: #eeeeeef1;
@@ -34,9 +34,7 @@ select {
   background-position-x: 90%;
   background-color: white;
 }
-form.input-select {
-  margin-right: 95%;
-}
+
 .input-select-med {
   -webkit-appearance: none;
   padding: 9px 150px 9px 5px;
@@ -67,9 +65,7 @@ form.input-select {
   background-position: right;
   background-position-x: 90%;
 }
-form.select-fade {
-  margin-right: 90%;
-}
+
 .select-fade-med {
   -webkit-appearance: none;
   padding: 9px 150px 9px 5px;
@@ -110,4 +106,22 @@ form.select-fade {
   padding: 10px 10px;
   color: #2585eb;
   font-size: 15px;
+}
+
+.input-voucher {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.voucher {
+  padding: 10px;
+  width: 130px;
+}
+.redeem {
+  height: 37px;
+  border-radius: 5%;
+  margin-top: 3px;
+  margin-left: -2px;
+  background-color: #2585eb;
+  color: white;
 }

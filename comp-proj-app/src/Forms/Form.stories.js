@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react";
 import Textinput from "./Textinput.js";
 import Selectinput from "./Selectinput.js";
 import Counter from "./Counter.js";
-import Textbutton from "./Textbutton.js";
+import Voucher from "./Voucher.js";
 
 storiesOf("Form", module)
   //Email Text Inputs
@@ -24,4 +24,7 @@ storiesOf("Form", module)
   ))
 
   //Counter button
-  .add("Counter", () => <Counter Counter />);
+  .add("Counter", () => <Counter Counter />)
+
+  //Voucher input/button
+  .add("Voucher", () => <Voucher label="Redeem" type="voucher" />);
