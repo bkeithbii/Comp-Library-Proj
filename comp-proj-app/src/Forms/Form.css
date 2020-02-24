@@ -94,6 +94,7 @@ select {
 }
 .number {
   padding: 0 5px;
+  padding-top: 3px;
   font-size: 15px;
 }
 .plus,
@@ -102,4 +103,5 @@ select {
   border: transparent;
   padding: 10px 10px;
   color: #2585eb;
+  font-size: 15px;
 }
