@@ -20,11 +20,31 @@ input {
 
 .input-select {
   -webkit-appearance: none;
-  padding: 5px 100px 5px 5px;
+  padding: 7px 90px 7px 5px;
   color: black;
   background-image: url("arrowdown2.0.png");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 5%;
+  /* background-size: 5%; */
   background-position-x: 90%;
+}
+.input-select-med {
+  -webkit-appearance: none;
+  padding: 9px 150px 9px 5px;
+  color: black;
+  background-image: url("arrowdown2.0.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 90%;
+}
+.input-select-large {
+  -webkit-appearance: none;
+  padding: 12px 150px 12px 5px;
+  color: black;
+  background-image: url("arrowdown2.0.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 90%;
+}
+.selectFade {
 }
