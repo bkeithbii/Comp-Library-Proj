@@ -82,3 +82,24 @@ select {
   background-position: right;
   background-position-x: 90%;
 }
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #eeeeeef1;
+  width: 15%;
+  height: 35px;
+}
+.number {
+  padding: 0 5px;
+  font-size: 15px;
+}
+.plus,
+.minus {
+  background-color: transparent;
+  border: transparent;
+  padding: 10px 10px;
+  color: #2585eb;
+}

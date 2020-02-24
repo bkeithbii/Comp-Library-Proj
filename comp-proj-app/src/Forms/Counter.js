@@ -27,9 +27,13 @@ class Counter extends Component {
 
     return (
       <div className={classList}>
-        <button className="plus" onClick={this.Increase} />
-        <p>{this.state.value}</p>
-        <button className="minus" onClick={this.Decrease} />
+        <button className="minus" onClick={this.Decrease}>
+          -
+        </button>
+        <p className="number">{this.state.value}</p>
+        <button className="plus" onClick={this.Increase}>
+          +
+        </button>
       </div>
     );
   }

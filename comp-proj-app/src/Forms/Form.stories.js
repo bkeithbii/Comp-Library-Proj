@@ -2,6 +2,7 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import Textinput from "./Textinput.js";
 import Selectinput from "./Selectinput.js";
+import Counter from "./Counter.js";
 
 storiesOf("Form", module)
   //Email Text Inputs
@@ -19,4 +20,7 @@ storiesOf("Form", module)
   .add("Select Fade Med", () => <Selectinput label="Select" selectFadeMed />)
   .add("Select Fade Large", () => (
     <Selectinput label="Select" selectFadeLarge />
-  ));
+  ))
+
+  //Counter button
+  .add("Counter", () => <Counter Counter />);
