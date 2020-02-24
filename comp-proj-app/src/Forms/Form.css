@@ -108,18 +108,30 @@ select {
   font-size: 15px;
 }
 
-.input-voucher {
+.voucherContainer {
   display: flex;
   flex-direction: row;
   overflow: hidden;
 }
-.voucher {
-  padding: 10px;
-  width: 130px;
+.input-small {
+  width: 110px;
+  height: 20px;
 }
-.redeem {
-  height: 37px;
-  border-radius: 5%;
+.button-small {
+  width: 90px;
+  height: 26px;
+  margin-top: 3px;
+  margin-left: -2px;
+  background-color: #2585eb;
+  color: white;
+}
+.input-large {
+  width: 140px;
+  height: 30px;
+}
+.button-large {
+  width: 100px;
+  height: 36px;
   margin-top: 3px;
   margin-left: -2px;
   background-color: #2585eb;

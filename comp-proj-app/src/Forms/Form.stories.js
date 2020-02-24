@@ -27,4 +27,5 @@ storiesOf("Form", module)
   .add("Counter", () => <Counter Counter />)
 
   //Voucher input/button
-  .add("Voucher", () => <Voucher label="Redeem" type="voucher" />);
+  .add("Voucher", () => <Voucher label="Redeem" type="small" />)
+  .add("Voucher Large", () => <Voucher label="Redeem" type="large" />);

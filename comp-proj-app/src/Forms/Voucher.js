@@ -17,21 +17,25 @@ class Voucher extends Component {
   };
 
   render() {
-    let classList = "";
-    let types = ["voucher", "voucherLarge"];
+    let classListI = "";
+    let classListB = "";
+    let types = ["small", "large"];
     if (types.includes(this.props.type)) {
-      classList += `input-${this.props.type}`;
+      classListI += `input-${this.props.type}`;
+    }
+    if (types.includes(this.props.type)) {
+      classListB += `button-${this.props.type}`;
     }
 
     return (
-      <div className={classList}>
+      <div className="voucherContainer">
         <input
-          className="voucher"
+          className={classListI}
           placeholder="Voucher code"
           input={this.state.value}
           type="text"
         ></input>
-        <button className="redeem" onClick={this.Typing}>
+        <button className={classListB} onClick={this.Typing}>
           {this.props.label}
         </button>
       </div>
