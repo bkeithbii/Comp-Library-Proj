@@ -15,4 +15,8 @@ storiesOf("Form", module)
   .add("Select", () => <Selectinput label="Select" type="select" />)
   .add("Select Med", () => <Selectinput label="Select" type="select-med" />)
   .add("Select Large", () => <Selectinput label="Select" type="select-large" />)
-  .add("Select Fade", () => <Selectinput label="Select" selectFade />);
+  .add("Select Fade", () => <Selectinput label="Select" selectFade />)
+  .add("Select Fade Med", () => <Selectinput label="Select" selectFadeMed />)
+  .add("Select Fade Large", () => (
+    <Selectinput label="Select" selectFadeLarge />
+  ));

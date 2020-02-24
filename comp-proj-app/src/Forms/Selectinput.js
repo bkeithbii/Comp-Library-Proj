@@ -11,6 +11,12 @@ const Selectinput = props => {
   if (props.selectFade) {
     classList += ` select-fade`;
   }
+  if (props.selectFadeMed) {
+    classList += ` select-fade-med`;
+  }
+  if (props.selectFadeLarge) {
+    classList += ` select-fade-large`;
+  }
 
   return (
     <form className={classList}>

@@ -64,3 +64,21 @@ select {
   background-position: right;
   background-position-x: 90%;
 }
+.select-fade-med {
+  -webkit-appearance: none;
+  padding: 9px 150px 9px 5px;
+  color: black;
+  background-image: url("arrowdown2.0.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 90%;
+}
+.select-fade-large {
+  -webkit-appearance: none;
+  padding: 12px 150px 12px 5px;
+  color: black;
+  background-image: url("arrowdown2.0.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 90%;
+}
