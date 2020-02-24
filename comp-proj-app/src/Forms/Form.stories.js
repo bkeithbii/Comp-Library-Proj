@@ -12,4 +12,7 @@ storiesOf("Form", module)
   .add("Email Large", () => <Textinput label="Email" type="email" emailLarge />)
 
   //Select Inputs
-  .add("Select", () => <Selectinput label="Select" type="select" />);
+  .add("Select", () => <Selectinput label="Select" type="select" />)
+  .add("Select Med", () => <Selectinput label="Select" type="select-med" />)
+  .add("Select Large", () => <Selectinput label="Select" type="select-large" />)
+  .add("Select Fade", () => <Selectinput label="Select" selectFade />);

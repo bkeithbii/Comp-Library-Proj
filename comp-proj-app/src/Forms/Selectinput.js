@@ -3,9 +3,13 @@ import "./Form.css";
 
 const Selectinput = props => {
   let classList = "";
-  let types = ["select"];
+  let types = ["select", "select-med", "select-large"];
   if (types.includes(props.type)) {
     classList += `input-${props.type}`;
+  }
+
+  if (props.selectFade) {
+    classList += ` select-fade`;
   }
 
   return (

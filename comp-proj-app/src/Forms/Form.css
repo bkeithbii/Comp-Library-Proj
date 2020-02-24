@@ -2,6 +2,12 @@ input {
   display: block;
   margin: 3px 0;
 }
+form {
+  margin-right: 77%;
+}
+select {
+  background-color: #eeeeeef1;
+}
 
 .input-email {
   font-size: 12px;
@@ -25,8 +31,8 @@ input {
   background-image: url("arrowdown2.0.png");
   background-repeat: no-repeat;
   background-position: right;
-  /* background-size: 5%; */
   background-position-x: 90%;
+  background-color: white;
 }
 .input-select-med {
   -webkit-appearance: none;
@@ -36,6 +42,7 @@ input {
   background-repeat: no-repeat;
   background-position: right;
   background-position-x: 90%;
+  background-color: white;
 }
 .input-select-large {
   -webkit-appearance: none;
@@ -45,6 +52,15 @@ input {
   background-repeat: no-repeat;
   background-position: right;
   background-position-x: 90%;
+  background-color: white;
 }
-.selectFade {
+
+.select-fade {
+  -webkit-appearance: none;
+  padding: 7px 90px 7px 5px;
+  color: black;
+  background-image: url("arrowdown2.0.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 90%;
 }
