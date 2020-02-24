@@ -1,0 +1,19 @@
+input {
+  display: block;
+  margin: 3px 0;
+}
+
+.email-small {
+  font-size: 12px;
+  padding: 3px 50px 3px 3px;
+}
+
+.email-medium {
+  font-size: 14px;
+  padding: 5px 35px 5px 3px;
+}
+
+.email-large {
+  font-size: 14px;
+  padding: 10px 35px 10px 3px;
+}
