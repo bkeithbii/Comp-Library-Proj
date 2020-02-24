@@ -8,7 +8,7 @@ const Button = props => {
 
   // Create an array of all of the story/component types you want to be
   // included in your component library
-  let types = ["primary", "danger", "success", "warning", "default"];
+  let types = ["primary", "danger", "success", "warning", "default", "icon"];
 
   // Add a conditional statement that checks for the type and updates the
   // classList variable based on their existence.
@@ -111,6 +111,19 @@ const Button = props => {
   }
   if (props.defaultLargeBorder) {
     classList += ` default-large-border`;
+  }
+
+  if (props.iconCartText) {
+    classList += ` icon-cart-text`;
+  }
+  if (props.iconHeartText) {
+    classList += ` icon-heart-text`;
+  }
+  if (props.iconHeart) {
+    classList += ` icon-heart`;
+  }
+  if (props.iconCart) {
+    classList += ` icon-cart`;
   }
 
   // Give the button's class a value of classList

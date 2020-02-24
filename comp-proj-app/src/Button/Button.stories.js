@@ -4,6 +4,7 @@ import { storiesOf } from "@storybook/react";
 import Button from "./Button";
 
 storiesOf("Button", module)
+  //Primary Buttons
   .add("Primary", () => <Button label="Primary" type="primary" />)
   .add("Primary Hover", () => (
     <Button label="Primary" type="primary" primaryHover />
@@ -24,6 +25,7 @@ storiesOf("Button", module)
     <Button label="Primary Large" type="primary" primaryLargeBorder />
   ))
 
+  //Danger Buttons
   .add("Danger", () => <Button label="Danger" type="danger" />)
   .add("Danger Hover", () => (
     <Button label="Danger" type="danger" dangerHover />
@@ -42,6 +44,7 @@ storiesOf("Button", module)
     <Button label="Danger Large" type="danger" dangerLargeBorder />
   ))
 
+  //Success Buttons
   .add("Success", () => <Button label="Success" type="success" />)
   .add("Success Hover", () => (
     <Button label="Success" type="success" successHover />
@@ -62,6 +65,7 @@ storiesOf("Button", module)
     <Button label="Success Large" type="success" successLargeBorder />
   ))
 
+  //Warning Buttons
   .add("Warning", () => <Button label="Warning" type="warning" />)
   .add("Warning Hover", () => (
     <Button label="Warning" type="warning" warningHover />
@@ -82,6 +86,7 @@ storiesOf("Button", module)
     <Button label="Warning Large" type="warning" warningLargeBorder />
   ))
 
+  //Default Buttons
   .add("Default", () => <Button label="Default" type="default" />)
   .add("Default Hover", () => (
     <Button label="Default" type="default" defaultHover />
@@ -100,4 +105,14 @@ storiesOf("Button", module)
   ))
   .add("Default Large-Border", () => (
     <Button label="Default Large" type="default" defaultLargeBorder />
-  ));
+  ))
+
+  //Icon Buttons
+  .add("Icon Cart-Text", () => (
+    <Button label="Add To Cart" type="icon" iconCartText />
+  ))
+  .add("Icon Heart-Text", () => (
+    <Button label="Add To Favorites" type="icon" iconHeartText />
+  ))
+  .add("Icon Cart", () => <Button label="" type="icon" iconCart />)
+  .add("Icon Heart", () => <Button label="" type="icon" iconHeart />);

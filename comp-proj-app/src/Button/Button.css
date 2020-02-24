@@ -168,3 +168,44 @@ button {
   background-color: white;
   padding: 10px 30px;
 }
+
+.icon-cart-text {
+  background-color: #d9e9fa;
+  background-image: url("icon-cart2.0.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 10%;
+  background-position-x: 13%;
+  color: #2585eb;
+  font-size: 10px;
+  padding: 5px 15px 5px 30px;
+}
+
+.icon-heart-text {
+  background-color: #d9e9fa;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 10%;
+  background-position-x: 13%;
+  background-image: url("icon-heart.png");
+  color: #2585eb;
+  font-size: 10px;
+  padding: 5px 13px 5px 35px;
+}
+
+.icon-heart {
+  background-color: #d9e9fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("icon-heart.png");
+  padding: 15px 15px;
+  background-size: 40%;
+}
+.icon-cart {
+  background-color: #d9e9fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("icon-cart2.0.png");
+  padding: 15px 15px;
+  background-size: 40%;
+}
