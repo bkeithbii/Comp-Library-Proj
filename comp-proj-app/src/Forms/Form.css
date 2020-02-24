@@ -3,7 +3,7 @@ input {
   margin: 3px 0;
 }
 
-.email-small {
+.input-email {
   font-size: 12px;
   padding: 3px 50px 3px 3px;
 }
@@ -16,4 +16,15 @@ input {
 .email-large {
   font-size: 14px;
   padding: 10px 35px 10px 3px;
+}
+
+.input-select {
+  -webkit-appearance: none;
+  padding: 5px 100px 5px 5px;
+  color: black;
+  background-image: url("arrowdown2.0.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 5%;
+  background-position-x: 90%;
 }
