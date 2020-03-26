@@ -6,22 +6,55 @@ class Checkbox extends Component {
     super(props);
 
     this.state = {
-      checked: false
+      checked: props.checked,
+      classList: `Checkbox box-${props.color}`
     };
   }
-
-  render() {
-    let classList = "";
-    let types = ["black", "blue"];
-    if (types.includes(this.props.type)) {
-      classList += `checkbox-${this.props.type}`;
+  clickHandle = () => {
+    this.setState({ checked: !this.state.checked });
+  };
+  displaySvg = () => {
+    if (this.state.checked) {
+      return (
+        <svg
+          className={`svg-${this.props.color}`}
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="8"
+          viewBox="0 0 10 8"
+        >
+          <g>
+            <g>
+              <path
+                fill="none"
+                stroke="#fff"
+                stroke-miterlimit="50"
+                stroke-width="2"
+                d="M1.5 3.978v0l2.67 2.67v0L9.32 1.5v0"
+              />
+            </g>
+          </g>
+        </svg>
+      );
+    } else {
+      return null;
     }
-
+  };
+  displayText = () => {
+    if (this.props.text) {
+      return <p className="optional-text">{this.props.text}</p>;
+    } else {
+      return null;
+    }
+  };
+  render() {
     return (
-      <label className="boxcontainer">
-        <input type="checkbox" />
-        <span className="checkmark"></span>
-      </label>
+      <div className="location">
+        <div className={this.state.classList} onClick={this.clickHandle}>
+          {this.displaySvg()}
+        </div>
+        {this.displayText()}
+      </div>
     );
   }
 }

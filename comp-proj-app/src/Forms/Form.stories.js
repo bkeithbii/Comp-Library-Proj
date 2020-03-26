@@ -32,4 +32,8 @@ storiesOf("Form", module)
   .add("Voucher Large", () => <Voucher label="Redeem" type="large" />)
 
   //Checkboxes
-  .add("Checkbox Blue", () => <Checkbox type="blue" />);
+  .add("Checkbox Blue", () => <Checkbox color="blue" />)
+  .add("Checkbox Black", () => <Checkbox color="black" checked />)
+  .add("Checkbox w/ Text", () => (
+    <Checkbox color="black" checked text="Don't show this popup again" />
+  ));
