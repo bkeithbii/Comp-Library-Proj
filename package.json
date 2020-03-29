@@ -1,0 +1,19 @@
+{
+  "name": "briansstorybook",
+  "version": "1.0.0",
+  "description": "This project was designed to test my understanding of React and apply it to building React Components. I was tasked with re-creating several components (buttons and forms) from a mockup reference.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkeithbii/Comp-Library-Proj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkeithbii/Comp-Library-Proj/issues"
+  },
+  "homepage": "https://github.com/bkeithbii/Comp-Library-Proj#readme"
+}
